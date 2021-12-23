@@ -1,5 +1,4 @@
-FROM node
-
+FROM --platform=linux/amd64 node
 
 ENV DATABASE_HOST mariaDB
 ENV DATABASE_USER root
